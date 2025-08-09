@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Scraper</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+    <main class="container">
+        <header class="app-header">
+            <h1>Amazon Product Finder</h1>
+            <p>Find products across different Amazon regions.</p>
+        </header>
+
+        <form id="search-form" class="search-form">
+            <input type="text" id="keyword-input" placeholder="e.g., smart watch" required />
+            <select id="region-select">
+                <option value="US">USA</option>
+                <option value="BR">Brazil</option>
+                <option value="ES">Spain</option>
+            </select>
+            <button type="submit">Search</button>
+        </form>
+
+        <div id="loader" class="loader-container hidden">
+            <div class="loader"></div>
+        </div>
+
+        <section id="results-container" class="results-container"></section>
+        <nav id="pagination-container" class="pagination-container hidden"></nav>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
