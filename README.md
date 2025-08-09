@@ -2,8 +2,12 @@
 
 Amazon Product Scraper is a full-stack application that allows users to search for products in real-time across different regional Amazon websites. The frontend is built with vanilla HTML, CSS, and JavaScript, using Vite as a build tool, while the backend is developed in Node.js with Express to handle the web scraping logic.
 
-<!-- Add an application screenshot here -->
-<!-- Example: ![App Screenshot](path/to/image.png) -->
+![InitialPage](https://github.com/marcub/chat-bot-node-react/blob/main/images/project1.png)
+
+![Products](https://github.com/marcub/chat-bot-node-react/blob/main/images/project2.png)
+
+![Pagination](https://github.com/marcub/chat-bot-node-react/blob/main/images/project3.png)
+
 
 ## Features
 
@@ -40,8 +44,8 @@ Follow the steps below to set up and run the project locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
-cd amazon-scrape-project
+git clone https://github.com/marcub/amazon-product-scraper
+cd amazon-product-scrape
 ```
 
 ### 2. Set Up the Backend (Server)
@@ -93,4 +97,4 @@ cd amazon-scrape-project
 
 ## License
 
-This project is licensed
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
